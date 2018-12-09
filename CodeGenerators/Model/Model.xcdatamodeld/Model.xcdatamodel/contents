@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="14460.32" systemVersion="18B75" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
-    <entity name="Passenger" representedClassName="Passenger" syncable="YES" codeGenerationType="class">
+    <entity name="Passenger" representedClassName="Passenger" syncable="YES">
         <attribute name="age" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
         <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
         <relationship name="reservations" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Reservation" inverseName="passenger" inverseEntity="Reservation" syncable="YES"/>
     </entity>
-    <entity name="Reservation" representedClassName="Reservation" syncable="YES" codeGenerationType="class">
+    <entity name="Reservation" representedClassName="Reservation" syncable="YES">
         <attribute name="row" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
         <attribute name="seat" optional="YES" attributeType="String" syncable="YES"/>
         <relationship name="passenger" maxCount="1" deletionRule="Nullify" destinationEntity="Passenger" inverseName="reservations" inverseEntity="Passenger" syncable="YES"/>
         <relationship name="train" maxCount="1" deletionRule="Nullify" destinationEntity="Train" inverseName="reservations" inverseEntity="Train" syncable="YES"/>
     </entity>
-    <entity name="Train" representedClassName="Train" syncable="YES" codeGenerationType="class">
+    <entity name="Train" representedClassName="Train" syncable="YES">
         <attribute name="companyName" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="trainNumber" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
         <relationship name="reservations" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Reservation" inverseName="train" inverseEntity="Reservation" syncable="YES"/>

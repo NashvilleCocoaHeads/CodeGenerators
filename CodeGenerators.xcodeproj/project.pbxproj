@@ -15,6 +15,12 @@
 		8E30960621BC99C000EE5B9E /* CodeGeneratorsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E30960521BC99C000EE5B9E /* CodeGeneratorsTests.swift */; };
 		8E30961121BC99D200EE5B9E /* SynthesizedConformance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E30961021BC99D200EE5B9E /* SynthesizedConformance.swift */; };
 		8E8C106F21BC9FD50015142E /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8E8C106D21BC9FD50015142E /* Model.xcdatamodeld */; };
+		8E8C107721BCAC9E0015142E /* Passenger+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E8C107121BCAC9E0015142E /* Passenger+CoreDataClass.swift */; };
+		8E8C107821BCAC9E0015142E /* Passenger+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E8C107221BCAC9E0015142E /* Passenger+CoreDataProperties.swift */; };
+		8E8C107921BCAC9E0015142E /* Train+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E8C107321BCAC9E0015142E /* Train+CoreDataClass.swift */; };
+		8E8C107A21BCAC9E0015142E /* Train+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E8C107421BCAC9E0015142E /* Train+CoreDataProperties.swift */; };
+		8E8C107B21BCAC9E0015142E /* Reservation+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E8C107521BCAC9E0015142E /* Reservation+CoreDataClass.swift */; };
+		8E8C107C21BCAC9E0015142E /* Reservation+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E8C107621BCAC9E0015142E /* Reservation+CoreDataProperties.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +46,12 @@
 		8E30960721BC99C000EE5B9E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8E30961021BC99D200EE5B9E /* SynthesizedConformance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SynthesizedConformance.swift; sourceTree = "<group>"; };
 		8E8C106E21BC9FD50015142E /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
+		8E8C107121BCAC9E0015142E /* Passenger+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Passenger+CoreDataClass.swift"; sourceTree = "<group>"; };
+		8E8C107221BCAC9E0015142E /* Passenger+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Passenger+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		8E8C107321BCAC9E0015142E /* Train+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Train+CoreDataClass.swift"; sourceTree = "<group>"; };
+		8E8C107421BCAC9E0015142E /* Train+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Train+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		8E8C107521BCAC9E0015142E /* Reservation+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Reservation+CoreDataClass.swift"; sourceTree = "<group>"; };
+		8E8C107621BCAC9E0015142E /* Reservation+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Reservation+CoreDataProperties.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,7 +96,7 @@
 				8E3095F021BC99BE00EE5B9E /* AppDelegate.swift */,
 				8E3095F221BC99BE00EE5B9E /* ViewController.swift */,
 				8E30961021BC99D200EE5B9E /* SynthesizedConformance.swift */,
-				8E8C106D21BC9FD50015142E /* Model.xcdatamodeld */,
+				8E8C107021BCAC8C0015142E /* Model */,
 				8E3095F421BC99BE00EE5B9E /* Main.storyboard */,
 				8E3095F721BC99C000EE5B9E /* Assets.xcassets */,
 				8E3095F921BC99C000EE5B9E /* LaunchScreen.storyboard */,
@@ -100,6 +112,20 @@
 				8E30960721BC99C000EE5B9E /* Info.plist */,
 			);
 			path = CodeGeneratorsTests;
+			sourceTree = "<group>";
+		};
+		8E8C107021BCAC8C0015142E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8E8C106D21BC9FD50015142E /* Model.xcdatamodeld */,
+				8E8C107121BCAC9E0015142E /* Passenger+CoreDataClass.swift */,
+				8E8C107221BCAC9E0015142E /* Passenger+CoreDataProperties.swift */,
+				8E8C107321BCAC9E0015142E /* Train+CoreDataClass.swift */,
+				8E8C107421BCAC9E0015142E /* Train+CoreDataProperties.swift */,
+				8E8C107521BCAC9E0015142E /* Reservation+CoreDataClass.swift */,
+				8E8C107621BCAC9E0015142E /* Reservation+CoreDataProperties.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -207,8 +233,14 @@
 			files = (
 				8E30961121BC99D200EE5B9E /* SynthesizedConformance.swift in Sources */,
 				8E3095F321BC99BE00EE5B9E /* ViewController.swift in Sources */,
+				8E8C107C21BCAC9E0015142E /* Reservation+CoreDataProperties.swift in Sources */,
+				8E8C107B21BCAC9E0015142E /* Reservation+CoreDataClass.swift in Sources */,
+				8E8C107A21BCAC9E0015142E /* Train+CoreDataProperties.swift in Sources */,
 				8E3095F121BC99BE00EE5B9E /* AppDelegate.swift in Sources */,
+				8E8C107921BCAC9E0015142E /* Train+CoreDataClass.swift in Sources */,
 				8E8C106F21BC9FD50015142E /* Model.xcdatamodeld in Sources */,
+				8E8C107821BCAC9E0015142E /* Passenger+CoreDataProperties.swift in Sources */,
+				8E8C107721BCAC9E0015142E /* Passenger+CoreDataClass.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
