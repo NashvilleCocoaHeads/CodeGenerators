@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="14460.32" systemVersion="18B75" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Passenger" representedClassName="Passenger" syncable="YES" codeGenerationType="class">
+        <attribute name="age" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="reservations" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Reservation" inverseName="passenger" inverseEntity="Reservation" syncable="YES"/>
+    </entity>
+    <entity name="Reservation" representedClassName="Reservation" syncable="YES" codeGenerationType="class">
+        <attribute name="row" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="seat" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="passenger" maxCount="1" deletionRule="Nullify" destinationEntity="Passenger" inverseName="reservations" inverseEntity="Passenger" syncable="YES"/>
+        <relationship name="train" maxCount="1" deletionRule="Nullify" destinationEntity="Train" inverseName="reservations" inverseEntity="Train" syncable="YES"/>
+    </entity>
+    <entity name="Train" representedClassName="Train" syncable="YES" codeGenerationType="class">
+        <attribute name="companyName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="trainNumber" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <relationship name="reservations" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Reservation" inverseName="train" inverseEntity="Reservation" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Train" positionX="-63" positionY="-18" width="128" height="90"/>
+        <element name="Passenger" positionX="-54" positionY="9" width="128" height="90"/>
+        <element name="Reservation" positionX="-36" positionY="27" width="128" height="105"/>
+    </elements>
+</model>

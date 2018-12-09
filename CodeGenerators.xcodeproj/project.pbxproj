@@ -13,6 +13,8 @@
 		8E3095F821BC99C000EE5B9E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8E3095F721BC99C000EE5B9E /* Assets.xcassets */; };
 		8E3095FB21BC99C000EE5B9E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E3095F921BC99C000EE5B9E /* LaunchScreen.storyboard */; };
 		8E30960621BC99C000EE5B9E /* CodeGeneratorsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E30960521BC99C000EE5B9E /* CodeGeneratorsTests.swift */; };
+		8E30961121BC99D200EE5B9E /* SynthesizedConformance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E30961021BC99D200EE5B9E /* SynthesizedConformance.swift */; };
+		8E8C106F21BC9FD50015142E /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8E8C106D21BC9FD50015142E /* Model.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 		8E30960121BC99C000EE5B9E /* CodeGeneratorsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CodeGeneratorsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8E30960521BC99C000EE5B9E /* CodeGeneratorsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeGeneratorsTests.swift; sourceTree = "<group>"; };
 		8E30960721BC99C000EE5B9E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8E30961021BC99D200EE5B9E /* SynthesizedConformance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SynthesizedConformance.swift; sourceTree = "<group>"; };
+		8E8C106E21BC9FD50015142E /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +83,8 @@
 			children = (
 				8E3095F021BC99BE00EE5B9E /* AppDelegate.swift */,
 				8E3095F221BC99BE00EE5B9E /* ViewController.swift */,
+				8E30961021BC99D200EE5B9E /* SynthesizedConformance.swift */,
+				8E8C106D21BC9FD50015142E /* Model.xcdatamodeld */,
 				8E3095F421BC99BE00EE5B9E /* Main.storyboard */,
 				8E3095F721BC99C000EE5B9E /* Assets.xcassets */,
 				8E3095F921BC99C000EE5B9E /* LaunchScreen.storyboard */,
@@ -146,9 +152,11 @@
 				TargetAttributes = {
 					8E3095EC21BC99BE00EE5B9E = {
 						CreatedOnToolsVersion = 9.4.1;
+						LastSwiftMigration = 1010;
 					};
 					8E30960021BC99C000EE5B9E = {
 						CreatedOnToolsVersion = 9.4.1;
+						LastSwiftMigration = 1010;
 						TestTargetID = 8E3095EC21BC99BE00EE5B9E;
 					};
 				};
@@ -197,8 +205,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8E30961121BC99D200EE5B9E /* SynthesizedConformance.swift in Sources */,
 				8E3095F321BC99BE00EE5B9E /* ViewController.swift in Sources */,
 				8E3095F121BC99BE00EE5B9E /* AppDelegate.swift in Sources */,
+				8E8C106F21BC9FD50015142E /* Model.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -367,7 +377,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = io.hyperself.CodeGenerators;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -385,7 +395,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = io.hyperself.CodeGenerators;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -405,7 +415,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = io.hyperself.CodeGeneratorsTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CodeGenerators.app/CodeGenerators";
 			};
@@ -426,7 +436,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = io.hyperself.CodeGeneratorsTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CodeGenerators.app/CodeGenerators";
 			};
@@ -463,6 +473,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		8E8C106D21BC9FD50015142E /* Model.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				8E8C106E21BC9FD50015142E /* Model.xcdatamodel */,
+			);
+			currentVersion = 8E8C106E21BC9FD50015142E /* Model.xcdatamodel */;
+			path = Model.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 8E3095E521BC99BE00EE5B9E /* Project object */;
 }
