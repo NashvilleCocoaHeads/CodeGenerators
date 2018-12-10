@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2ACA593832B31E2F312FDDCD /* Pods_CodeGenerators.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4484D5DD03D60DE9C5C07B97 /* Pods_CodeGenerators.framework */; };
 		8E3095F121BC99BE00EE5B9E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E3095F021BC99BE00EE5B9E /* AppDelegate.swift */; };
 		8E3095F321BC99BE00EE5B9E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E3095F221BC99BE00EE5B9E /* ViewController.swift */; };
 		8E3095F621BC99BE00EE5B9E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E3095F421BC99BE00EE5B9E /* Main.storyboard */; };
@@ -21,6 +22,12 @@
 		8E8C107A21BCAC9E0015142E /* Train+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E8C107421BCAC9E0015142E /* Train+CoreDataProperties.swift */; };
 		8E8C107B21BCAC9E0015142E /* Reservation+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E8C107521BCAC9E0015142E /* Reservation+CoreDataClass.swift */; };
 		8E8C107C21BCAC9E0015142E /* Reservation+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E8C107621BCAC9E0015142E /* Reservation+CoreDataProperties.swift */; };
+		8E8C107E21BCAFCC0015142E /* PassengersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E8C107D21BCAFCC0015142E /* PassengersViewController.swift */; };
+		8E8C108021BDE1510015142E /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 8E8C107F21BDE1510015142E /* README.md */; };
+		8E8C108721BE04920015142E /* PassengerAttribute.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E8C108421BE04920015142E /* PassengerAttribute.swift */; };
+		8E8C108821BE04920015142E /* TrainAttribute.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E8C108521BE04920015142E /* TrainAttribute.swift */; };
+		8E8C108921BE04920015142E /* ReservationAttribute.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E8C108621BE04920015142E /* ReservationAttribute.swift */; };
+		8E8C108C21BE04EB0015142E /* CDQIPassengerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E8C108B21BE04EB0015142E /* CDQIPassengerViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +41,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		24676598932012EE2ABF6EF1 /* Pods-CodeGenerators.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CodeGenerators.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CodeGenerators/Pods-CodeGenerators.debug.xcconfig"; sourceTree = "<group>"; };
+		4484D5DD03D60DE9C5C07B97 /* Pods_CodeGenerators.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CodeGenerators.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8E3095ED21BC99BE00EE5B9E /* CodeGenerators.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CodeGenerators.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8E3095F021BC99BE00EE5B9E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8E3095F221BC99BE00EE5B9E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -52,6 +61,13 @@
 		8E8C107421BCAC9E0015142E /* Train+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Train+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		8E8C107521BCAC9E0015142E /* Reservation+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Reservation+CoreDataClass.swift"; sourceTree = "<group>"; };
 		8E8C107621BCAC9E0015142E /* Reservation+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Reservation+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		8E8C107D21BCAFCC0015142E /* PassengersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PassengersViewController.swift; sourceTree = "<group>"; };
+		8E8C107F21BDE1510015142E /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		8E8C108421BE04920015142E /* PassengerAttribute.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PassengerAttribute.swift; sourceTree = "<group>"; };
+		8E8C108521BE04920015142E /* TrainAttribute.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrainAttribute.swift; sourceTree = "<group>"; };
+		8E8C108621BE04920015142E /* ReservationAttribute.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReservationAttribute.swift; sourceTree = "<group>"; };
+		8E8C108B21BE04EB0015142E /* CDQIPassengerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CDQIPassengerViewController.swift; sourceTree = "<group>"; };
+		E96E5EDB96C326BC97E98968 /* Pods-CodeGenerators.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CodeGenerators.release.xcconfig"; path = "Pods/Target Support Files/Pods-CodeGenerators/Pods-CodeGenerators.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +75,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2ACA593832B31E2F312FDDCD /* Pods_CodeGenerators.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,12 +89,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		696CAEE9B1D16AB77113506A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4484D5DD03D60DE9C5C07B97 /* Pods_CodeGenerators.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		8E3095E421BC99BE00EE5B9E = {
 			isa = PBXGroup;
 			children = (
+				8E8C107F21BDE1510015142E /* README.md */,
 				8E3095EF21BC99BE00EE5B9E /* CodeGenerators */,
 				8E30960421BC99C000EE5B9E /* CodeGeneratorsTests */,
 				8E3095EE21BC99BE00EE5B9E /* Products */,
+				A167A15828507DE2CA25A42F /* Pods */,
+				696CAEE9B1D16AB77113506A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -96,6 +124,8 @@
 				8E3095F021BC99BE00EE5B9E /* AppDelegate.swift */,
 				8E3095F221BC99BE00EE5B9E /* ViewController.swift */,
 				8E30961021BC99D200EE5B9E /* SynthesizedConformance.swift */,
+				8E8C107D21BCAFCC0015142E /* PassengersViewController.swift */,
+				8E8C108B21BE04EB0015142E /* CDQIPassengerViewController.swift */,
 				8E8C107021BCAC8C0015142E /* Model */,
 				8E3095F421BC99BE00EE5B9E /* Main.storyboard */,
 				8E3095F721BC99C000EE5B9E /* Assets.xcassets */,
@@ -124,8 +154,28 @@
 				8E8C107421BCAC9E0015142E /* Train+CoreDataProperties.swift */,
 				8E8C107521BCAC9E0015142E /* Reservation+CoreDataClass.swift */,
 				8E8C107621BCAC9E0015142E /* Reservation+CoreDataProperties.swift */,
+				8E8C108A21BE04980015142E /* CDQI Attributes */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		8E8C108A21BE04980015142E /* CDQI Attributes */ = {
+			isa = PBXGroup;
+			children = (
+				8E8C108421BE04920015142E /* PassengerAttribute.swift */,
+				8E8C108621BE04920015142E /* ReservationAttribute.swift */,
+				8E8C108521BE04920015142E /* TrainAttribute.swift */,
+			);
+			name = "CDQI Attributes";
+			sourceTree = "<group>";
+		};
+		A167A15828507DE2CA25A42F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				24676598932012EE2ABF6EF1 /* Pods-CodeGenerators.debug.xcconfig */,
+				E96E5EDB96C326BC97E98968 /* Pods-CodeGenerators.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,9 +185,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8E30960A21BC99C000EE5B9E /* Build configuration list for PBXNativeTarget "CodeGenerators" */;
 			buildPhases = (
+				AB2DCEE03E834E91DF0DB6A0 /* [CP] Check Pods Manifest.lock */,
+				8E8C108121BDE40F0015142E /* ShellScript */,
 				8E3095E921BC99BE00EE5B9E /* Sources */,
 				8E3095EA21BC99BE00EE5B9E /* Frameworks */,
 				8E3095EB21BC99BE00EE5B9E /* Resources */,
+				F277974B8687EDC2D10DB367 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -213,6 +266,7 @@
 			files = (
 				8E3095FB21BC99C000EE5B9E /* LaunchScreen.storyboard in Resources */,
 				8E3095F821BC99C000EE5B9E /* Assets.xcassets in Resources */,
+				8E8C108021BDE1510015142E /* README.md in Resources */,
 				8E3095F621BC99BE00EE5B9E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -226,11 +280,68 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		8E8C108121BDE40F0015142E /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "TARGET_DIR=\"${PROJECT_DIR}/${TARGET_NAME}\"\nCDQI=\"${PROJECT_DIR}/bin/cdqi\"\nfor f in $(find $TARGET_DIR -name \"*.xcdatamodeld\")\ndo\nFILENAME=$(basename $f)\nMODEL_DIR=$(dirname $f)\nMODEL=${FILENAME%.*}\necho \"Generating model attributes for ${MODEL} in ${MODEL_DIR}\"\necho \"CDQI: $CDQI\"\n$CDQI --in $MODEL_DIR --force \"${MODEL}\" -p\ndone\n";
+		};
+		AB2DCEE03E834E91DF0DB6A0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CodeGenerators-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F277974B8687EDC2D10DB367 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-CodeGenerators/Pods-CodeGenerators-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/CoreDataQueryInterface/CoreDataQueryInterface.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CoreDataQueryInterface.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CodeGenerators/Pods-CodeGenerators-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		8E3095E921BC99BE00EE5B9E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8E8C108821BE04920015142E /* TrainAttribute.swift in Sources */,
 				8E30961121BC99D200EE5B9E /* SynthesizedConformance.swift in Sources */,
 				8E3095F321BC99BE00EE5B9E /* ViewController.swift in Sources */,
 				8E8C107C21BCAC9E0015142E /* Reservation+CoreDataProperties.swift in Sources */,
@@ -238,9 +349,13 @@
 				8E8C107A21BCAC9E0015142E /* Train+CoreDataProperties.swift in Sources */,
 				8E3095F121BC99BE00EE5B9E /* AppDelegate.swift in Sources */,
 				8E8C107921BCAC9E0015142E /* Train+CoreDataClass.swift in Sources */,
+				8E8C108721BE04920015142E /* PassengerAttribute.swift in Sources */,
+				8E8C107E21BCAFCC0015142E /* PassengersViewController.swift in Sources */,
 				8E8C106F21BC9FD50015142E /* Model.xcdatamodeld in Sources */,
 				8E8C107821BCAC9E0015142E /* Passenger+CoreDataProperties.swift in Sources */,
 				8E8C107721BCAC9E0015142E /* Passenger+CoreDataClass.swift in Sources */,
+				8E8C108C21BE04EB0015142E /* CDQIPassengerViewController.swift in Sources */,
+				8E8C108921BE04920015142E /* ReservationAttribute.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -398,6 +513,7 @@
 		};
 		8E30960B21BC99C000EE5B9E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24676598932012EE2ABF6EF1 /* Pods-CodeGenerators.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -416,6 +532,7 @@
 		};
 		8E30960C21BC99C000EE5B9E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E96E5EDB96C326BC97E98968 /* Pods-CodeGenerators.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

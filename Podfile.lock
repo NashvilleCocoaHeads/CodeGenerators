@@ -1,0 +1,16 @@
+PODS:
+  - CoreDataQueryInterface (6.1)
+
+DEPENDENCIES:
+  - CoreDataQueryInterface (~> 6.0)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - CoreDataQueryInterface
+
+SPEC CHECKSUMS:
+  CoreDataQueryInterface: eb89072645cbb66f370fc8f5f7be98acb2e5b4f6
+
+PODFILE CHECKSUM: 3ce75c2a8dbf76aed02784da78bd1e411cbd7ad8
+
+COCOAPODS: 1.5.3
