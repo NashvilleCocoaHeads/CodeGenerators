@@ -1,16 +1,20 @@
 PODS:
   - CoreDataQueryInterface (6.1)
+  - Sourcery (0.15.0)
 
 DEPENDENCIES:
   - CoreDataQueryInterface (~> 6.0)
+  - Sourcery (~> 0.15.0)
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
     - CoreDataQueryInterface
+    - Sourcery
 
 SPEC CHECKSUMS:
   CoreDataQueryInterface: eb89072645cbb66f370fc8f5f7be98acb2e5b4f6
+  Sourcery: 5895672cae353cdbfa95f3f4aaeb75a664d76f6a
 
-PODFILE CHECKSUM: 3ce75c2a8dbf76aed02784da78bd1e411cbd7ad8
+PODFILE CHECKSUM: 530cefa495e05d3dfa90599106e36383cfa2c220
 
 COCOAPODS: 1.5.3

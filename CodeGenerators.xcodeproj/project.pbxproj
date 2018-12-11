@@ -23,7 +23,6 @@
 		8E8C107B21BCAC9E0015142E /* Reservation+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E8C107521BCAC9E0015142E /* Reservation+CoreDataClass.swift */; };
 		8E8C107C21BCAC9E0015142E /* Reservation+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E8C107621BCAC9E0015142E /* Reservation+CoreDataProperties.swift */; };
 		8E8C107E21BCAFCC0015142E /* PassengersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E8C107D21BCAFCC0015142E /* PassengersViewController.swift */; };
-		8E8C108021BDE1510015142E /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 8E8C107F21BDE1510015142E /* README.md */; };
 		8E8C108721BE04920015142E /* PassengerAttribute.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E8C108421BE04920015142E /* PassengerAttribute.swift */; };
 		8E8C108821BE04920015142E /* TrainAttribute.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E8C108521BE04920015142E /* TrainAttribute.swift */; };
 		8E8C108921BE04920015142E /* ReservationAttribute.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E8C108621BE04920015142E /* ReservationAttribute.swift */; };
@@ -67,6 +66,8 @@
 		8E8C108521BE04920015142E /* TrainAttribute.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrainAttribute.swift; sourceTree = "<group>"; };
 		8E8C108621BE04920015142E /* ReservationAttribute.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReservationAttribute.swift; sourceTree = "<group>"; };
 		8E8C108B21BE04EB0015142E /* CDQIPassengerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CDQIPassengerViewController.swift; sourceTree = "<group>"; };
+		8E8C108D21BE0D490015142E /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+		8E8C108E21BE0D490015142E /* Podfile.lock */ = {isa = PBXFileReference; lastKnownFileType = text; path = Podfile.lock; sourceTree = "<group>"; };
 		E96E5EDB96C326BC97E98968 /* Pods-CodeGenerators.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CodeGenerators.release.xcconfig"; path = "Pods/Target Support Files/Pods-CodeGenerators/Pods-CodeGenerators.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -101,6 +102,8 @@
 			isa = PBXGroup;
 			children = (
 				8E8C107F21BDE1510015142E /* README.md */,
+				8E8C108D21BE0D490015142E /* Podfile */,
+				8E8C108E21BE0D490015142E /* Podfile.lock */,
 				8E3095EF21BC99BE00EE5B9E /* CodeGenerators */,
 				8E30960421BC99C000EE5B9E /* CodeGeneratorsTests */,
 				8E3095EE21BC99BE00EE5B9E /* Products */,
@@ -266,7 +269,6 @@
 			files = (
 				8E3095FB21BC99C000EE5B9E /* LaunchScreen.storyboard in Resources */,
 				8E3095F821BC99C000EE5B9E /* Assets.xcassets in Resources */,
-				8E8C108021BDE1510015142E /* README.md in Resources */,
 				8E3095F621BC99BE00EE5B9E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
