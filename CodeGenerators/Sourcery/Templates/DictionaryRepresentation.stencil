@@ -1,0 +1,26 @@
+
+import Foundation
+
+{% for type in types.all|annotated:"DictionaryRepresentation" %}
+
+//MARK: {{type.name}} DictionaryRepresentation
+extension {{ type.name }}: DictionaryRepresentation {
+
+  func toDictionary() -> [String: Any] {
+    var dict = [String: Any]()
+    {% for var in type.variables|instance %}
+    dict["{{ var.name }}"] = {{ var.name }}
+    {% endfor %}
+    return dict
+  }
+
+  init?(dictionary: [String: Any]) {
+    {% for var in type.variables|instance %}
+    guard let {{var.name}} = dictionary["{{var.name}}"] as? {{var.typeName}} else { return nil }
+    {% endfor %}
+    {% for var in type.variables|instance %}
+    self.{{var.name}} = {{var.name}}
+    {% endfor %}
+  }
+}
+{% endfor %}
